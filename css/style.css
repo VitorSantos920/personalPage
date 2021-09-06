@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* Div Esquerda Styles */
+    #esquerda{
+        border: 5px solid black;
+        height: 100%;
+        width: 34%;
+        background-color: rgb(252, 180, 47);
+        display: inline-block;
+        text-align: center;
+        position: fixed;
+    }
+
+    .title{
+        margin-top: 10px;
+        margin-bottom: 35px;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 50px;
+        letter-spacing: 10px;
+        text-decoration: underline;
+    }
+
+    #me{
+        border-radius: 50%;
+        width: 50%;
+        border: 5px solid rgb(255, 255, 255);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        transition: 5s;
+    }
+
+    .infos{
+        color: white;
+    }
+
+/* Div Direita Styles */
+    #direita{
+        border: 5px solid black;
+        border-left: none;
+        background-color: rgba(252, 180, 47, 0.597);
+        width: 66%;
+        height: auto;
+        float: right;
+        text-align: center;
+    }
+
+    .sec{
+        border: 5px solid rgba(67, 160, 170, 0.494);
+        margin-top: 20px;
+        width: 75%;
+        border-radius: 20px;
+        margin-left: 15%;
+        height: auto;
+        background-color: rgba(45, 185, 201, 0.494);
+        text-align: center;
+    }
+
+    .sec:hover{
+        background-color: rgba(33, 144, 157, 0.494);
+        color: white;
+        transition: 400ms;
+    }
+
+    .title-sec{
+        padding-top: 10px;
+        text-decoration: underline;
+    }
+
+    .description{
+        padding: 25px;
+        font-style: italic;
+    }
+
+    #listcontatos{
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: blue;
+        font-style: italic;
+    }
